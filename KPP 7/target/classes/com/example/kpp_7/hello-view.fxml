@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.kpp_7.HelloController" alignment="CENTER">
+    <GridPane alignment="CENTER">
+        <rowConstraints>
+            <RowConstraints percentHeight="12"/>
+            <RowConstraints percentHeight="12"/>
+            <RowConstraints percentHeight="12"/>
+            <RowConstraints percentHeight="12"/>
+            <RowConstraints percentHeight="12"/>
+            <RowConstraints percentHeight="12"/>
+        </rowConstraints>
+        <columnConstraints>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+        </columnConstraints>
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="0" maxWidth="30" minWidth="30" text="3" fx:id="input00"/>
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="1" maxWidth="30" minWidth="30" text="2" fx:id="input01"/>
+        <Label GridPane.rowIndex="0" GridPane.columnIndex="2" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="0" GridPane.columnIndex="3" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="0" GridPane.columnIndex="4" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="0" GridPane.columnIndex="5" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="0" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="14" fx:id="input07"/>
+
+        <TextField GridPane.rowIndex="1" GridPane.columnIndex="0" maxWidth="30" minWidth="30" text="5" fx:id="input10"/>
+        <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" maxWidth="30" minWidth="30" text="3" fx:id="input11"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="2" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="3" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="4" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="5" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="1" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="22" fx:id="input17"/>
+
+
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="1" text="0" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="2" GridPane.columnIndex="2" maxWidth="30" minWidth="30" text="3" fx:id="input22"/>
+        <TextField GridPane.rowIndex="2" GridPane.columnIndex="3" maxWidth="30" minWidth="30" text="2" fx:id="input23"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="4" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="5" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="2" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="14" fx:id="input27"/>
+
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="1" text="0" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="3" GridPane.columnIndex="2" maxWidth="30" minWidth="30" text="5" fx:id="input32"/>
+        <TextField GridPane.rowIndex="3" GridPane.columnIndex="3" maxWidth="30" minWidth="30" text="3" fx:id="input33"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="4" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="5" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="3" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="22" fx:id="input37"/>
+
+
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="0" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="1" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="2" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="3" text="0" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="4" GridPane.columnIndex="4" maxWidth="30" minWidth="30" text="3" fx:id="input44"/>
+        <TextField GridPane.rowIndex="4" GridPane.columnIndex="5" maxWidth="30" minWidth="30" text="2" fx:id="input45"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="4" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="14" fx:id="input47"/>
+
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="0" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="1" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="2" text="0" GridPane.halignment="CENTER"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="3" text="0" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="5" GridPane.columnIndex="4" maxWidth="30" minWidth="30" text="5" fx:id="input54"/>
+        <TextField GridPane.rowIndex="5" GridPane.columnIndex="5" maxWidth="30" minWidth="30" text="3" fx:id="input55"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="6" text="=" GridPane.halignment="CENTER"/>
+        <TextField GridPane.rowIndex="5" GridPane.columnIndex="7" maxWidth="30" minWidth="30" text="12" fx:id="input57"/>
+
+    </GridPane>
+    <GridPane alignment="CENTER">
+        <rowConstraints>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+            <RowConstraints percentHeight="7"/>
+        </rowConstraints>
+        <columnConstraints>
+            <ColumnConstraints percentWidth="5"/>
+            <ColumnConstraints percentWidth="5"/>
+        </columnConstraints>
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="0" maxWidth="80" minWidth="80" text="Threads"
+                   GridPane.halignment="RIGHT" fx:id="inputThreads"/>
+        <Button GridPane.rowIndex="0" GridPane.columnIndex="1" maxWidth="80" minWidth="80" text="Solve"
+                GridPane.halignment="LEFT" onAction="#onStartClick"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="X1 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="1" GridPane.columnIndex="1" text="X" GridPane.halignment="LEFT" fx:id="resultX1"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Y1 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="2" GridPane.columnIndex="1" text="Y" GridPane.halignment="LEFT" fx:id="resultY1"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="X2 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="3" GridPane.columnIndex="1" text="X" GridPane.halignment="LEFT" fx:id="resultX2"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="0" text="Y2 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="4" GridPane.columnIndex="1" text="Y" GridPane.halignment="LEFT" fx:id="resultY2"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="0" text="X3 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="5" GridPane.columnIndex="1" text="X" GridPane.halignment="LEFT" fx:id="resultX3"/>
+        <Label GridPane.rowIndex="6" GridPane.columnIndex="0" text="Y3 = " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="6" GridPane.columnIndex="1" text="Y" GridPane.halignment="LEFT" fx:id="resultY3"/>
+
+        <Label GridPane.rowIndex="7" GridPane.columnIndex="0" text="Thread: " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="7" GridPane.columnIndex="1" text="-" GridPane.halignment="LEFT" fx:id="threadName"/>
+        <Label GridPane.rowIndex="8" GridPane.columnIndex="0" text="State: " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="8" GridPane.columnIndex="1" text="-" GridPane.halignment="LEFT" fx:id="threadState"/>
+        <Label GridPane.rowIndex="9" GridPane.columnIndex="0" text="Priority: " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="9" GridPane.columnIndex="1" text="-" GridPane.halignment="LEFT" fx:id="threadPriority"/>
+        <Label GridPane.rowIndex="10" GridPane.columnIndex="0" text="Is On: " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="10" GridPane.columnIndex="1" text="-" GridPane.halignment="LEFT" fx:id="threadIsOn"/>
+
+        <Label GridPane.rowIndex="12" GridPane.columnIndex="0" text="Time, ms: " GridPane.halignment="RIGHT"/>
+        <Label GridPane.rowIndex="12" GridPane.columnIndex="1" text="-" GridPane.halignment="LEFT" fx:id="timeTaken"/>
+
+    </GridPane>
+</VBox>
